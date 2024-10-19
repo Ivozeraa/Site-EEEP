@@ -1,0 +1,14 @@
+/* Carrossel.css */
+.carrossel-container {
+    width: 100%;
+  }
+  
+  .slick-slide {
+    text-align: center;
+    color: #fff;
+    background: #333;
+    height: 200px; /* Altura do slide */
+    line-height: 200px; /* Centraliza o texto verticalmente */
+    font-size: 30px; /* Tamanho da fonte */
+  }
+

@@ -1,0 +1,63 @@
+:root {
+    --tom-verde: #006b09;
+    --tom-laranja: #ff6600;
+}
+
+.imgPrincipal {
+    background-image: linear-gradient(to bottom, transparent 0%, var(--tom-verde) 75%), 
+                      url("imagemPrincipal.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--tom-verde);
+    border-bottom: double 10px var(--tom-laranja);
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 30px;
+    padding: 4px;
+    border-radius: 50px;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tom-laranja);
+    border-radius: 15px;
+    height: 30px;
+}
+
+header nav a p{
+    padding: 0 5px;
+}
+
+header nav a:hover {
+    background-color: var(--tom-laranja);
+    scale: 1.2;
+    transition: ease-in-out 70ms;
+
+}
