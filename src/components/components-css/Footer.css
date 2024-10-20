@@ -10,11 +10,11 @@ footer{
     padding: 10px;
 }
 
-a{
+Footer a{
     color: rgb(255, 255, 255);
 }
 
-a:hover{
+Footer a:hover{
     color: var(--tom-laranja);
     scale: 1.2;
 }
