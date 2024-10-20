@@ -2,16 +2,17 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './components-css/Carrossel.css'; // Arquivo CSS opcional para personalização
+import './components-css/Carrossel.css';
 
-function Carrossel (props) {
+function Carrossel(props) {
   const settings = {
-    autoplay: true,  // Habilitar autoplay
-    infinite: true,  // Habilitar loop infinito
-    speed: 500,  // Velocidade de transição
+    autoplay: true,   // Habilitar autoplay
+    infinite: true,   // Habilitar loop infinito
+    speed: 500,       // Velocidade de transição
     slidesToShow: 1,  // Número de slides a mostrar
-    slidesToScroll: 1,  // Número de slides a rolar
-    draggable: false,  // Desabilitar arrastar
+    slidesToScroll: 1,// Número de slides a rolar
+    dots: true,       // Exibir os pontinhos de navegação
+    arrows: true,     // Mostrar botões de próxima/anterior
   };
 
   return (
@@ -32,6 +33,6 @@ function Carrossel (props) {
       </Slider>
     </div>
   );
-};
+}
 
 export default Carrossel;

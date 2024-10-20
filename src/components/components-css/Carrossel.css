@@ -1,14 +1,21 @@
-/* Carrossel.css */
 .carrossel-container {
-    width: 100%;
-  }
-  
-  .slick-slide {
-    text-align: center;
-    color: #fff;
-    background: #333;
-    height: 200px; /* Altura do slide */
-    line-height: 200px; /* Centraliza o texto verticalmente */
-    font-size: 30px; /* Tamanho da fonte */
-  }
+  width: 90%;
+  margin: 50px auto;
+}
 
+.slick-slide {
+  text-align: center;
+  color: #fff;
+  background: #333;
+  height: 200px; 
+  line-height: 200px;
+  font-size: 30px; 
+}
+
+.slick-dots li button:active::before, .slick-dots li.slick-active button::before {
+  color: var(--tom-verde);
+}
+
+.slick-prev:before, .slick-next:before {
+  color: var(--tom-verde); 
+}

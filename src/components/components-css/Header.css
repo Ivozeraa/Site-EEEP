@@ -46,7 +46,8 @@ header nav a:last-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--tom-laranja);
+    border: solid 2px var(--tom-laranja);
+    color: #ff6600;
     border-radius: 15px;
     height: 30px;
 }
@@ -59,5 +60,6 @@ header nav a:hover {
     background-color: var(--tom-laranja);
     scale: 1.2;
     transition: ease-in-out 70ms;
+    color: rgb(255, 255, 255);
 
 }
