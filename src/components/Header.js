@@ -30,10 +30,10 @@ const toggleList = () => {
                         </a>
 
                         <ul className={showList ? 'showList' : ''}>
-                            <li><a href="#"><FontAwesomeIcon icon={faEnvelope} />Administração</a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faBolt} />Eletrotecnica</a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faSyringe} />Enfermagem</a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faCode} />Informática</a></li>
+                            <li><a href="#">Administração<FontAwesomeIcon icon={faEnvelope} /></a></li>
+                            <li><a href="#">Eletrotecnica<FontAwesomeIcon icon={faBolt} /></a></li>
+                            <li><a href="#">Enfermagem<FontAwesomeIcon icon={faSyringe} /></a></li>
+                            <li><a href="#">Informática<FontAwesomeIcon icon={faCode} /></a></li>
                         </ul>
 
                     </div>

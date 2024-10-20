@@ -75,23 +75,20 @@ header nav a p {
 nav ul {
     list-style: none;
     position: absolute;
-    top: 50px;
-    left: -70px;
-    padding: 0;
-    margin: 0;
+    top: 30px;
+    left: -140px;
     width: 170px;
     background-color: var(--tom-verde);
     z-index: 1000;
     border: 2px double var(--tom-laranja);
     border-radius: 10px;
-    max-height: 0;
     opacity: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out, opacity 0.4s ease-out; /* Transição suave */
 }
 
 nav ul li {
-    padding: 10px 5px 10px 0;
+    padding: 10px 0px 10px 0;
     color: white;
     text-align: left;
 }
@@ -111,9 +108,11 @@ nav ul li a {
 nav ul li a:hover{
     color: var(--tom-laranja);
     transition: ease-in-out 70ms;
+    
 }
 
 /* Classe que mostra a lista com a animação */
+
 .showList {
     display: block;
     max-height: 300px; /* Define a altura máxima quando visível */
