@@ -76,7 +76,7 @@ nav ul {
     list-style: none;
     position: absolute;
     top: 30px;
-    left: -140px;
+    left: -180px;
     width: 170px;
     background-color: var(--tom-verde);
     z-index: 1000;
@@ -84,7 +84,8 @@ nav ul {
     border-radius: 10px;
     opacity: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-out, opacity 0.4s ease-out; /* Transição suave */
+    max-height: 0;
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
 }
 
 nav ul li {
