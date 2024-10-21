@@ -20,15 +20,18 @@ function Carrossel(props) {
       <Slider {...settings}>
         <div>
           <img src={props.imagem1} alt="Descrição da Imagem 1" />
-          <p>Legenda da Imagem 1</p>
         </div>
         <div>
           <img src={props.imagem2} alt="Descrição da Imagem 2" />
-          <p>Legenda da Imagem 2</p>
         </div>
         <div>
           <img src={props.imagem3} alt="Descrição da Imagem 3" />
-          <p>Legenda da Imagem 3</p>
+        </div>
+        <div>
+          <img src={props.imagem4} alt="Descrição da Imagem 4" />
+        </div>
+        <div>
+          <img src={props.imagem5} alt="Descrição da Imagem 5" />
         </div>
       </Slider>
     </div>

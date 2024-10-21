@@ -14,7 +14,7 @@ function App() {
       <Carrossel />
       <main className="Main">
         <Section 
-          titulo="Titulo" 
+          titulo="Opa"
         />
       </main>
       <Footer/>
