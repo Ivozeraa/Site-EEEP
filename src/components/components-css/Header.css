@@ -109,13 +109,10 @@ nav ul li a {
 nav ul li a:hover{
     color: var(--tom-laranja);
     transition: ease-in-out 70ms;
-    
 }
-
-/* Classe que mostra a lista com a animação */
 
 .showList {
     display: block;
-    max-height: 300px; /* Define a altura máxima quando visível */
-    opacity: 1; /* Torna o menu visível */
+    max-height: 300px; 
+    opacity: 1;
 }
